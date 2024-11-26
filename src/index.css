@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ant Design Pro Table styles */
+.ant-pro-table {
+  @apply bg-white rounded-lg shadow-sm;
+}
+
+.ant-pro-table-list-toolbar-container {
+  @apply px-6 py-4;
+}
+
+.ant-pro-card {
+  @apply rounded-lg border-0 shadow-none;
+}
+
+/* Fix button styles */
+.ant-btn-primary {
+  background-color: #4f46e5 !important;
+}
+
+.ant-btn-primary:hover {
+  background-color: #4338ca !important;
+}
